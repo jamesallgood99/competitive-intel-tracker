@@ -21,8 +21,6 @@ const esc = (s) =>
 const VERDICT = { win: 'Win', parity: 'Parity', loss: 'Loss' };
 const mark = (v) => `<span class="mark mark-${v}" aria-hidden="true"></span>`;
 const verdict = (v) => `<span class="verdict verdict-${v}">${mark(v)}${VERDICT[v] ?? v}</span>`;
-const strip = (card) =>
-  `<span class="strip" role="img" aria-label="${esc(tallyText(card))}">${card.scorecard.map((s) => `<span class="s-${s.verdict}" title="${esc(s.capability)}: ${VERDICT[s.verdict]}"></span>`).join('')}</span>`;
 const tally = (card) => card.scorecard.reduce((t, s) => ((t[s.verdict] = (t[s.verdict] ?? 0) + 1), t), { win: 0, parity: 0, loss: 0 });
 function tallyText(card) {
   const t = tally(card);
@@ -93,7 +91,6 @@ function homePage() {
           return `<li data-search="${esc(`${c.name} ${cat.name} ${c.products.map((p) => p.name).join(' ')}`.toLowerCase())}">
 <a href="${cardHref('', c.slug)}">
 <span class="name">${esc(c.name)}</span>
-${strip(c)}
 <span class="meta">${stale ? '<span class="stale">Needs a check</span>' : `Confirmed ${prettyDate(c.lastConfirmed)}`}${recent ? `<br>${recent} change${recent > 1 ? 's' : ''} in 30 days` : ''}</span>
 </a></li>`;
         })
@@ -125,7 +122,6 @@ ${strip(c)}
 <div>
 <div class="categories" id="roster">${categories}</div>
 <p class="no-match" id="no-match" hidden>No battlecard matches that name. Ask for one in Slack: <code>/battlecard request Company name</code>.</p>
-<div class="legend" aria-label="Scorecard key"><span>${mark('win')} We win</span><span>${mark('parity')} Parity</span><span>${mark('loss')} They win</span><span>One mark per capability on the card's quick-look scorecard.</span></div>
 </div>
 ${latestBox}
 </div>`;

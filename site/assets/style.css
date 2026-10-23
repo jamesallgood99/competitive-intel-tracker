@@ -70,13 +70,6 @@ footer { border-top: 1px solid var(--rule); padding-block: 20px 40px; font-size:
 .verdict-parity { color: #8a6800; }
 .verdict-loss { color: var(--loss); }
 
-/* A competitor's scorecard as one strip: one segment per capability, in order. */
-.strip { display: flex; gap: 3px; }
-.strip span { width: 12px; height: 12px; }
-.strip .s-win { background: var(--win); }
-.strip .s-parity { background: var(--parity); clip-path: polygon(50% 4%, 100% 96%, 0 96%); }
-.strip .s-loss { background: var(--loss); border-radius: 50%; }
-
 /* Freshness tag, shaped like an inspection tag. */
 .tag {
   display: inline-flex; align-items: center; gap: 6px;
@@ -111,7 +104,7 @@ footer { border-top: 1px solid var(--rule); padding-block: 20px 40px; font-size:
 .roster li { margin: 0; border-bottom: 1px solid var(--rule); }
 .roster a {
   display: grid;
-  grid-template-columns: minmax(0, 1.4fr) auto minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr) auto;
   gap: 16px; align-items: center;
   padding: 12px 4px;
   color: inherit; text-decoration: none;
@@ -128,8 +121,6 @@ footer { border-top: 1px solid var(--rule); padding-block: 20px 40px; font-size:
 .latest ol { padding-left: 1.3em; margin-top: 12px; }
 .latest li::marker { font: 700 1rem var(--display); }
 .latest .more { display: inline-block; margin-top: 14px; font-weight: 600; }
-.legend { display: flex; flex-wrap: wrap; gap: 14px; font-size: 0.875rem; color: var(--ink-soft); margin-top: 20px; }
-.legend span { display: inline-flex; align-items: center; gap: 6px; }
 
 /* ---------- Battlecard ---------- */
 .crumbs { font-size: 0.9rem; margin-bottom: 10px; }
@@ -265,8 +256,8 @@ dl.facts dd { margin: 0; }
   .movers li { grid-template-columns: 1fr; gap: 6px; }
 }
 @media (max-width: 640px) {
-  .roster a { grid-template-columns: 1fr auto; }
-  .roster .meta { grid-column: 1 / -1; text-align: left; }
+  .roster a { grid-template-columns: 1fr; gap: 4px; }
+  .roster .meta { text-align: left; }
   .objection { grid-template-columns: 1fr; gap: 6px; }
   .scorecard td:first-child { width: auto; }
   .scorecard thead { display: none; }
