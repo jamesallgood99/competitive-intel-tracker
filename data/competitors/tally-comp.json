@@ -1,0 +1,229 @@
+{
+  "slug": "tally-comp",
+  "name": "Tally Comp",
+  "category": "insurtech",
+  "website": "https://tallycomp.example",
+  "status": "active",
+  "lastConfirmed": "2026-10-16",
+  "owner": "Product marketing",
+  "positioning": "Tally Comp sells small businesses a fast, cheap workers' comp policy; Keelstone helps mid-market employers lower what they pay at every renewal, whoever their carrier is. When the prospect has more than 100 employees or a broker they trust, we win.",
+  "scorecard": [
+    {
+      "capability": "Works with any carrier",
+      "verdict": "win",
+      "note": "Tally's tools only come with a Tally policy."
+    },
+    {
+      "capability": "Leading indicators, not just loss runs",
+      "verdict": "win",
+      "note": "Tally prices from payroll and class codes."
+    },
+    {
+      "capability": "Hazard detection",
+      "verdict": "win",
+      "note": "None."
+    },
+    {
+      "capability": "Broker reporting",
+      "verdict": "win",
+      "note": "Tally sells direct and around brokers."
+    },
+    {
+      "capability": "Total cost of risk",
+      "verdict": "parity",
+      "note": "Their new dashboard covers premium and claims."
+    },
+    {
+      "capability": "Fit for mid-market",
+      "verdict": "win",
+      "note": "Built for under 50 employees."
+    },
+    {
+      "capability": "Claims management",
+      "verdict": "loss",
+      "note": "They handle claims; we don't."
+    },
+    {
+      "capability": "Time to value",
+      "verdict": "loss",
+      "note": "Bind a policy in minutes."
+    }
+  ],
+  "whyWeWin": [
+    {
+      "point": "Keep your carrier and your broker",
+      "proof": "We work alongside any policy."
+    },
+    {
+      "point": "Change the risk, not just the price",
+      "proof": "Leading indicators lower claim frequency, which lowers the mod."
+    },
+    {
+      "point": "Built for multi-site operations",
+      "proof": "Site-level reporting across every location."
+    }
+  ],
+  "whereTheyWin": [
+    "Small businesses buying online",
+    "Speed: quote and bind in minutes",
+    "Prospects without a broker"
+  ],
+  "objections": [
+    {
+      "theySay": "Tally will cut your premium 20% today.",
+      "youSay": "A lower price on the same risk lasts until the first big claim. Ask what happens to the rate at renewal."
+    },
+    {
+      "theySay": "Tally includes a safety dashboard for free.",
+      "youSay": "It shows claims after they happen. Ask whether it can see a hazard before someone gets hurt."
+    }
+  ],
+  "landmines": [
+    "Will you have to change carriers to use their tools?",
+    "How does your broker feel about a direct-to-employer policy?",
+    "What did your rate do at the second renewal?"
+  ],
+  "messaging": [
+    "Workers' comp in minutes",
+    "Pay-as-you-go premiums",
+    "Now with cost-of-risk insights for every policyholder"
+  ],
+  "products": [
+    {
+      "name": "Tally Policy",
+      "description": "Online workers' comp for small businesses"
+    },
+    {
+      "name": "Tally Pay-as-you-go",
+      "description": "Premiums billed with payroll"
+    },
+    {
+      "name": "Tally Insights",
+      "description": "Cost-of-risk dashboard for policyholders, launched October 2026"
+    }
+  ],
+  "compliance": [
+    {
+      "area": "SOC 2 Type II",
+      "them": "Claimed",
+      "us": "Yes"
+    }
+  ],
+  "customerSentiment": {
+    "asOf": "2026-10-01",
+    "sources": [
+      {
+        "name": "G2",
+        "rating": 4.5,
+        "reviews": 310
+      },
+      {
+        "name": "Capterra",
+        "rating": 4.6,
+        "reviews": 402
+      }
+    ],
+    "positive": [
+      {
+        "theme": "Speed and simplicity",
+        "mentions": 140,
+        "detail": "Quote to bind in one sitting."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Renewal increases",
+        "mentions": 44,
+        "detail": "Rates jump after a claim."
+      },
+      {
+        "theme": "Claims support",
+        "mentions": 31,
+        "detail": "Slow adjuster response."
+      }
+    ]
+  },
+  "employeeSentiment": {
+    "asOf": "2026-10-01",
+    "rating": 3.4,
+    "ceoApproval": 62,
+    "recommendToFriend": 55,
+    "positive": [
+      {
+        "theme": "Growth",
+        "mentions": 12,
+        "detail": "Fast-moving company."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Layoffs",
+        "mentions": 15,
+        "detail": "Two rounds of cuts in 2026."
+      }
+    ]
+  },
+  "fieldIntel": [
+    {
+      "date": "2026-10-15",
+      "author": "Priya S. (AE, Mid-Market)",
+      "text": "Tally pitched Tally Insights as 'Keelstone for free' to a 140-employee landscaper. Broker pushed back because Tally would replace the existing carrier.",
+      "source": "Broker conversation",
+      "approvedBy": "Admin"
+    }
+  ],
+  "snapshot": {
+    "founded": 2018,
+    "hq": "San Francisco, CA",
+    "employees": "600–700",
+    "funding": "Series D, $310M total",
+    "leadership": "CEO: Rebecca Lindqvist",
+    "news": [
+      {
+        "date": "2026-10-07",
+        "headline": "Launched Tally Insights cost-of-risk dashboard"
+      },
+      {
+        "date": "2026-09-10",
+        "headline": "Expanded to employers with up to 250 employees in 12 states"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://tallycomp.example/",
+      "method": "fetch",
+      "purpose": "messaging",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://tallycomp.example/products",
+      "method": "fetch",
+      "purpose": "products",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://tallycomp.example/security",
+      "method": "fetch",
+      "purpose": "compliance",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Tally Comp reviews G2 Capterra Gartner",
+      "method": "search",
+      "purpose": "reviews",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Tally Comp Glassdoor reviews CEO approval",
+      "method": "search",
+      "purpose": "employees",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    }
+  ]
+}

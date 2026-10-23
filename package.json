@@ -1,0 +1,19 @@
+{
+  "name": "competitive-intel-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "bot": "node src/bot/app.js",
+    "scrape": "node src/jobs/scrape.js",
+    "monthly": "node src/jobs/monthly.js",
+    "draft-card": "node src/jobs/draft-card.js",
+    "build": "node site/build.js",
+    "serve": "node site/serve.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "dependencies": {
+    "@slack/bolt": "^4.1.0"
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "slug": "liftwise-labs",
+  "name": "Liftwise Labs",
+  "category": "ai-safety",
+  "website": "https://liftwise.example",
+  "status": "active",
+  "lastConfirmed": "2026-09-18",
+  "owner": "Product marketing",
+  "positioning": "Liftwise puts sensors on workers to score how they lift; Keelstone sees the whole site through the cameras already on the wall, with nothing for workers to wear or charge. When the prospect wants coverage of every hazard, not only ergonomics, we win.",
+  "scorecard": [
+    {
+      "capability": "Hazard detection on existing cameras",
+      "verdict": "win",
+      "note": "Liftwise is wearables only."
+    },
+    {
+      "capability": "Ergonomic and lift risk",
+      "verdict": "loss",
+      "note": "Wearables give them more precise per-worker motion data."
+    },
+    {
+      "capability": "Worker privacy controls",
+      "verdict": "parity",
+      "note": "Wearables avoid video, but track individuals by name."
+    },
+    {
+      "capability": "Crew coaching",
+      "verdict": "parity",
+      "note": "Their haptic buzz coaches in the moment."
+    },
+    {
+      "capability": "OSHA recordkeeping",
+      "verdict": "win",
+      "note": "None at Liftwise."
+    },
+    {
+      "capability": "Broker and renewal reporting",
+      "verdict": "win",
+      "note": "None at Liftwise."
+    },
+    {
+      "capability": "Total cost of risk",
+      "verdict": "win",
+      "note": "They report risk scores, not dollars."
+    },
+    {
+      "capability": "Time to deploy",
+      "verdict": "parity",
+      "note": "Fast to ship devices, slow to get adoption."
+    }
+  ],
+  "whyWeWin": [
+    {
+      "point": "Nothing to wear, charge or lose",
+      "proof": "Runs on existing cameras; wearable programs commonly lose devices and adoption within months."
+    },
+    {
+      "point": "Every hazard, not one kind",
+      "proof": "Slips, PPE, forklifts and lifts in one system."
+    },
+    {
+      "point": "Connects safety to premium",
+      "proof": "Broker report and cost-of-risk dashboard."
+    }
+  ],
+  "whereTheyWin": [
+    "Ergonomics-only buyers in warehousing and distribution",
+    "Sites with few cameras or poor sightlines",
+    "Customers who want individual worker scores"
+  ],
+  "objections": [
+    {
+      "theySay": "Wearables measure every lift precisely.",
+      "youSay": "For the workers who wear them. Ask what share were still wearing them at month six."
+    },
+    {
+      "theySay": "No cameras means no privacy concerns.",
+      "youSay": "A device that scores each worker by name is personal data too. We never identify individuals by default."
+    }
+  ],
+  "landmines": [
+    "Who charges and hands out the devices every shift?",
+    "What happens with temp and seasonal workers?",
+    "How will you see hazards that are not lifts?"
+  ],
+  "messaging": [
+    "Every lift, measured",
+    "Coach in the moment",
+    "Fewer strains in 90 days"
+  ],
+  "products": [
+    {
+      "name": "Liftwise Clip",
+      "description": "Wearable motion sensor with haptic coaching"
+    },
+    {
+      "name": "Liftwise Insights",
+      "description": "Ergonomic risk dashboard by worker and team"
+    }
+  ],
+  "compliance": [
+    {
+      "area": "SOC 2 Type II",
+      "them": "Not claimed (Type I only)",
+      "us": "Yes"
+    },
+    {
+      "area": "Individual tracking",
+      "them": "Named workers by default",
+      "us": "Anonymized by default"
+    }
+  ],
+  "customerSentiment": {
+    "asOf": "2026-09-15",
+    "sources": [
+      {
+        "name": "G2",
+        "rating": 4.2,
+        "reviews": 38
+      },
+      {
+        "name": "Capterra",
+        "rating": 4,
+        "reviews": 25
+      }
+    ],
+    "positive": [
+      {
+        "theme": "Measurable ergonomics",
+        "mentions": 15,
+        "detail": "Clear before-and-after risk scores."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Device adoption",
+        "mentions": 18,
+        "detail": "Workers stop wearing them; devices go missing."
+      },
+      {
+        "theme": "Narrow scope",
+        "mentions": 8,
+        "detail": "Only covers lifting."
+      }
+    ]
+  },
+  "employeeSentiment": {
+    "asOf": "2026-09-15",
+    "rating": 3.2,
+    "ceoApproval": 58,
+    "recommendToFriend": 51,
+    "positive": [
+      {
+        "theme": "Small team",
+        "mentions": 5,
+        "detail": "Lots of ownership."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Runway",
+        "mentions": 9,
+        "detail": "Worries about the next funding round."
+      }
+    ]
+  },
+  "fieldIntel": [],
+  "snapshot": {
+    "founded": 2018,
+    "hq": "Columbus, OH",
+    "employees": "60–80",
+    "funding": "Series A, $22M total",
+    "leadership": "CEO: Grant Hollis",
+    "news": []
+  },
+  "sources": [
+    {
+      "url": "https://liftwise.example/",
+      "method": "fetch",
+      "purpose": "messaging",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://liftwise.example/products",
+      "method": "fetch",
+      "purpose": "products",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://liftwise.example/security",
+      "method": "fetch",
+      "purpose": "compliance",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Liftwise Labs reviews G2 Capterra Gartner",
+      "method": "search",
+      "purpose": "reviews",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Liftwise Labs Glassdoor reviews CEO approval",
+      "method": "search",
+      "purpose": "employees",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    }
+  ]
+}

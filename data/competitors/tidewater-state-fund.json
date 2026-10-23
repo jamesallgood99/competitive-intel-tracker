@@ -1,0 +1,162 @@
+{
+  "slug": "tidewater-state-fund",
+  "name": "Tidewater State Fund",
+  "category": "carriers",
+  "website": "https://tidewaterfund.example",
+  "status": "active",
+  "lastConfirmed": "2026-10-01",
+  "owner": "Product marketing",
+  "positioning": "Tidewater is the insurer of last resort for hard-to-place employers and offers basic safety grants; Keelstone gives those same employers the evidence to move back to the standard market. When a prospect wants out of the state fund, we are the plan.",
+  "scorecard": [
+    {
+      "capability": "Continuous site coverage",
+      "verdict": "win",
+      "note": "None."
+    },
+    {
+      "capability": "Real-time hazard alerts",
+      "verdict": "win",
+      "note": "None."
+    },
+    {
+      "capability": "Broker and renewal reporting",
+      "verdict": "win",
+      "note": "None."
+    },
+    {
+      "capability": "Premium credits for safety",
+      "verdict": "parity",
+      "note": "Safety grants up to $10K."
+    },
+    {
+      "capability": "Claims handling",
+      "verdict": "loss",
+      "note": "They're the carrier."
+    },
+    {
+      "capability": "Loss-control consultants",
+      "verdict": "parity",
+      "note": "Limited, by request."
+    },
+    {
+      "capability": "Data portability",
+      "verdict": "win",
+      "note": "Employer owns Keelstone data."
+    },
+    {
+      "capability": "Worker privacy controls",
+      "verdict": "parity",
+      "note": "No video."
+    }
+  ],
+  "whyWeWin": [
+    {
+      "point": "A path back to the standard market",
+      "proof": "Twelve months of leading indicators gives the broker a story to shop."
+    }
+  ],
+  "whereTheyWin": [
+    "Employers no standard carrier will write"
+  ],
+  "objections": [
+    {
+      "theySay": "Tidewater's safety grant pays for equipment.",
+      "youSay": "Use it. Some of our customers put their grant toward Keelstone."
+    }
+  ],
+  "landmines": [
+    "What would it take to get back into the standard market?"
+  ],
+  "messaging": [
+    "Coverage for every employer in the state",
+    "New: 2027 safety grant program"
+  ],
+  "products": [
+    {
+      "name": "Tidewater Workers' Comp",
+      "description": "State-chartered workers' comp fund"
+    },
+    {
+      "name": "Safety Grant Program",
+      "description": "Matching grants for safety equipment and technology"
+    }
+  ],
+  "compliance": [],
+  "customerSentiment": {
+    "asOf": "2026-10-01",
+    "sources": [],
+    "positive": [],
+    "negative": []
+  },
+  "employeeSentiment": {
+    "asOf": "2026-10-01",
+    "rating": 3.6,
+    "ceoApproval": 70,
+    "recommendToFriend": 63,
+    "positive": [
+      {
+        "theme": "Stability",
+        "mentions": 11,
+        "detail": "Public-sector job security."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Bureaucracy",
+        "mentions": 9,
+        "detail": "Slow decisions."
+      }
+    ]
+  },
+  "fieldIntel": [],
+  "snapshot": {
+    "founded": 1914,
+    "hq": "Richmond, VA",
+    "employees": "1,500",
+    "funding": "State fund",
+    "leadership": "President: Calvin Oduya",
+    "news": [
+      {
+        "date": "2026-09-30",
+        "headline": "Expanded safety grants to cover AI safety technology in 2027"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://tidewaterfund.example/",
+      "method": "fetch",
+      "purpose": "messaging",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://tidewaterfund.example/products",
+      "method": "fetch",
+      "purpose": "products",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://tidewaterfund.example/security",
+      "method": "fetch",
+      "purpose": "compliance",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Tidewater State Fund reviews G2 Capterra Gartner",
+      "method": "search",
+      "purpose": "reviews",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Tidewater State Fund Glassdoor reviews CEO approval",
+      "method": "search",
+      "purpose": "employees",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    }
+  ]
+}

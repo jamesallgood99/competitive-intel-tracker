@@ -1,0 +1,30 @@
+[
+  {
+    "id": "r-2026-0601-watchpost-ai",
+    "kind": "battlecard",
+    "name": "Watchpost AI",
+    "slug": "watchpost-ai",
+    "requestedBy": "U0DEMOREP1",
+    "requestedByName": "Dana R.",
+    "requestedAt": "2026-06-01",
+    "reason": "Lost two Central deals to them this quarter.",
+    "status": "approved",
+    "decidedBy": "Admin",
+    "decidedAt": "2026-06-02",
+    "category": "ai-safety"
+  },
+  {
+    "id": "r-2026-1016-gridsafe",
+    "kind": "battlecard",
+    "name": "Gridsafe Robotics",
+    "slug": "gridsafe-robotics",
+    "requestedBy": "U0DEMOREP2",
+    "requestedByName": "Marcus T.",
+    "requestedAt": "2026-10-16",
+    "reason": "Came up once in a warehouse deal.",
+    "status": "rejected",
+    "decidedBy": "Admin",
+    "decidedAt": "2026-10-16",
+    "decisionNote": "Autonomous inspection robots, not a safety analytics competitor. Logged as field intel instead."
+  }
+]

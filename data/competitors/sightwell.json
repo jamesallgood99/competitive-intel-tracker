@@ -1,0 +1,197 @@
+{
+  "slug": "sightwell",
+  "name": "Sightwell",
+  "category": "ai-safety",
+  "website": "https://sightwell.example",
+  "status": "active",
+  "lastConfirmed": "2026-06-30",
+  "owner": "Product marketing",
+  "positioning": "Sightwell is the low-cost way to add PPE alerts to a few cameras; Keelstone is the program that turns hazards into fewer claims across every site. When the prospect needs to show the CFO a result, not just an alert count, we win.",
+  "scorecard": [
+    {
+      "capability": "Hazard detection on existing cameras",
+      "verdict": "parity",
+      "note": "PPE and zone alerts only, but accurate."
+    },
+    {
+      "capability": "Ergonomic and lift risk",
+      "verdict": "win",
+      "note": "Not offered."
+    },
+    {
+      "capability": "Worker privacy controls",
+      "verdict": "win",
+      "note": "No blurring."
+    },
+    {
+      "capability": "Crew coaching",
+      "verdict": "win",
+      "note": "Not offered."
+    },
+    {
+      "capability": "OSHA recordkeeping",
+      "verdict": "win",
+      "note": "Not offered."
+    },
+    {
+      "capability": "Broker and renewal reporting",
+      "verdict": "win",
+      "note": "Not offered."
+    },
+    {
+      "capability": "Total cost of risk",
+      "verdict": "win",
+      "note": "Not offered."
+    },
+    {
+      "capability": "Time to deploy",
+      "verdict": "loss",
+      "note": "Self-serve, live the same day."
+    }
+  ],
+  "whyWeWin": [
+    {
+      "point": "A program, not a point tool",
+      "proof": "Coaching, OSHA and renewal reporting are where the claims reduction comes from."
+    },
+    {
+      "point": "Privacy built in",
+      "proof": "Sightwell stores unblurred video."
+    },
+    {
+      "point": "Coverage of the hazards that cost the most",
+      "proof": "Lifts, slips and vehicles, not only missing hard hats."
+    }
+  ],
+  "whereTheyWin": [
+    "Price: self-serve at a per-camera monthly fee",
+    "Single-site buyers who only want PPE compliance"
+  ],
+  "objections": [
+    {
+      "theySay": "Sightwell is a tenth of the price.",
+      "youSay": "For a hard-hat alert. Ask what a single lost-time claim cost them last year."
+    }
+  ],
+  "landmines": [
+    "What will you do with a missing-PPE alert at 2 a.m.?",
+    "Is the video blurred before anyone sees it?"
+  ],
+  "messaging": [
+    "PPE compliance on autopilot",
+    "Start free on three cameras"
+  ],
+  "products": [
+    {
+      "name": "Sightwell PPE",
+      "description": "Self-serve PPE and restricted-zone alerts"
+    }
+  ],
+  "compliance": [
+    {
+      "area": "SOC 2 Type II",
+      "them": "Not claimed",
+      "us": "Yes"
+    },
+    {
+      "area": "Blurring",
+      "them": "None",
+      "us": "Edge, on by default"
+    }
+  ],
+  "customerSentiment": {
+    "asOf": "2026-06-15",
+    "sources": [
+      {
+        "name": "G2",
+        "rating": 4.4,
+        "reviews": 96
+      },
+      {
+        "name": "Capterra",
+        "rating": 4.3,
+        "reviews": 120
+      }
+    ],
+    "positive": [
+      {
+        "theme": "Easy and cheap",
+        "mentions": 52,
+        "detail": "Set up in minutes, low monthly cost."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Basic features",
+        "mentions": 27,
+        "detail": "Outgrown once a safety program matures."
+      }
+    ]
+  },
+  "employeeSentiment": {
+    "asOf": "2026-06-15",
+    "rating": 3.9,
+    "ceoApproval": 80,
+    "recommendToFriend": 72,
+    "positive": [
+      {
+        "theme": "Remote-friendly",
+        "mentions": 6,
+        "detail": "Fully remote."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Pay",
+        "mentions": 5,
+        "detail": "Below market."
+      }
+    ]
+  },
+  "fieldIntel": [],
+  "snapshot": {
+    "founded": 2021,
+    "hq": "Remote (US)",
+    "employees": "30–50",
+    "funding": "Seed, $8M",
+    "leadership": "CEO: Ama Owusu",
+    "news": []
+  },
+  "sources": [
+    {
+      "url": "https://sightwell.example/",
+      "method": "fetch",
+      "purpose": "messaging",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://sightwell.example/products",
+      "method": "fetch",
+      "purpose": "products",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://sightwell.example/security",
+      "method": "fetch",
+      "purpose": "compliance",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Sightwell reviews G2 Capterra Gartner",
+      "method": "search",
+      "purpose": "reviews",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Sightwell Glassdoor reviews CEO approval",
+      "method": "search",
+      "purpose": "employees",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    }
+  ]
+}

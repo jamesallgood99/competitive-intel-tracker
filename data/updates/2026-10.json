@@ -1,0 +1,77 @@
+{
+  "id": "2026-10",
+  "title": "Carriers and insurtechs move onto our turf",
+  "status": "published",
+  "createdAt": "2026-10-06",
+  "publishedAt": "2026-10-06",
+  "demo": true,
+  "window": { "from": "2026-09-01", "to": "2026-10-06" },
+  "tldr": [
+    { "text": "Cobaltrock Mutual launched SafeSight, a free camera pilot for its larger policyholders. Lead with data ownership: SafeSight's findings stay with the carrier.", "slug": "cobaltrock-mutual" },
+    { "text": "Watchpost AI now sells lift and posture scoring (Ergo), so ergonomics is no longer a clean win. Shift to OSHA, broker reporting and edge blurring.", "slug": "watchpost-ai" },
+    { "text": "Pennant Comp has new CFO and CRO hires and a sales reorg. Its customers are asking about leaving at renewal; ask your broker contacts who's up next.", "slug": "pennant-comp" }
+  ],
+  "industry": {
+    "trends": {
+      "summary": "Camera-based safety is going mainstream, and the companies selling it are spreading from safety teams to insurers.",
+      "items": [
+        { "text": "Two carriers in our fictional market launched or piloted computer-vision programs for policyholders this month. Expect buyers to ask whether their carrier's free option is good enough.", "url": null },
+        { "text": "Ergonomics add-ons are now table stakes for AI safety vendors. Differentiation is shifting to what happens after the alert: coaching, OSHA paperwork and renewal reporting.", "url": null }
+      ]
+    },
+    "regulatory": {
+      "summary": "No new federal rules, but state privacy rules on workplace video keep tightening.",
+      "items": [
+        { "text": "A state workplace-surveillance bill advanced that would require notice before employers analyze video of workers. Our edge blurring and worker notice already meet the draft language.", "url": null }
+      ]
+    },
+    "mna": {
+      "summary": "One carrier merger and one insurtech acquisition.",
+      "items": [
+        { "text": "Ferncliff Insurance Group agreed to merge with Ardent Re, closing Q2 2027. Ferncliff policyholders face a year of service changes.", "url": null },
+        { "text": "Riskloom bought claims-analytics startup Fennel, deepening its carrier-side claims product. It still doesn't sell to employers.", "url": null }
+      ]
+    },
+    "health": {
+      "summary": "Workers' comp remains profitable for carriers, which keeps rates soft and makes price-only pitches easy to make.",
+      "items": [
+        { "text": "Soft rates mean prospects feel less premium pain. Lead with claim frequency and lost workdays, not only premium.", "url": null }
+      ]
+    }
+  },
+  "categories": [
+    {
+      "id": "ai-safety",
+      "name": "AI safety analytics",
+      "tracked": 4,
+      "movers": [
+        { "slug": "watchpost-ai", "name": "Watchpost AI", "score": 6.5, "whatChanged": "Launched Watchpost Ergo for lift and posture scoring and rewrote the homepage around deployment speed.", "soWhat": "Don't lead with ergonomics against Watchpost anymore. Lead with OSHA recordkeeping, the broker report and edge blurring, none of which Ergo touches.", "changeIds": ["c-2026-0901-01", "c-2026-0915-01", "c-2026-0922-01"] },
+        { "slug": "liftwise-labs", "name": "Liftwise Labs", "score": 1.5, "whatChanged": "Published per-worker pricing for the first time.", "soWhat": "A visible per-worker price makes the total easy to compare. Do the math for the prospect's headcount, including temps who also need devices.", "changeIds": ["c-2026-0926-01"] }
+      ],
+      "quiet": ["Lumenfield", "Sightwell"]
+    },
+    {
+      "id": "insurtech",
+      "name": "Insurtech",
+      "tracked": 4,
+      "movers": [
+        { "slug": "pennant-comp", "name": "Pennant Comp", "score": 5.25, "whatChanged": "Replaced its CFO and CRO, reorganized sales, and its employee rating dropped.", "soWhat": "Pennant customers are open to a conversation. Pitch Keelstone as the way to keep the safety results while going back to the carrier they had before.", "changeIds": ["c-2026-0918-01", "c-2026-0920-01", "c-2026-1003-01"] },
+        { "slug": "riskloom", "name": "Riskloom", "score": 3.75, "whatChanged": "Acquired Fennel, a claims-analytics startup.", "soWhat": "No change to how we sell. Riskloom is carrier-side; if a prospect mentions it, the point is that our broker report gives their underwriter newer evidence.", "changeIds": ["c-2026-0929-01"] },
+        { "slug": "tally-comp", "name": "Tally Comp", "score": 3.75, "whatChanged": "Opened eligibility to employers with up to 250 employees in 12 states.", "soWhat": "Tally will start showing up in mid-market deals. Ask whether the prospect wants to keep its broker and carrier; Tally requires leaving both.", "changeIds": ["c-2026-0910-01"] }
+      ],
+      "quiet": ["Larkspur Insurance"]
+    },
+    {
+      "id": "carriers",
+      "name": "Insurance carriers",
+      "tracked": 4,
+      "movers": [
+        { "slug": "cobaltrock-mutual", "name": "Cobaltrock Mutual", "score": 5.5, "whatChanged": "Announced SafeSight, a camera-based safety pilot for selected policyholders, and is promoting AI safety on its homepage.", "soWhat": "Ask who owns SafeSight's findings if the customer changes carriers. Keelstone data belongs to the employer and goes with them to renewal.", "changeIds": ["c-2026-1002-01", "c-2026-1005-01"] },
+        { "slug": "ferncliff-insurance-group", "name": "Ferncliff Insurance Group", "score": 3.75, "whatChanged": "Announced a merger with Ardent Re, closing Q2 2027.", "soWhat": "Ferncliff policyholders will see service and contact changes. Lead with continuity: our coverage doesn't change when their loss-control team does.", "changeIds": ["c-2026-0924-01"] },
+        { "slug": "tidewater-state-fund", "name": "Tidewater State Fund", "score": 1.5, "whatChanged": "Safety grants will cover AI safety technology starting in 2027.", "soWhat": "Good news for us: Tidewater policyholders can put grant money toward Keelstone. Mention it in every Tidewater deal.", "changeIds": ["c-2026-0930-01"] }
+      ],
+      "quiet": ["Harborline Casualty"]
+    }
+  ],
+  "sources": []
+}

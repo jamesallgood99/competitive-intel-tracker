@@ -1,0 +1,118 @@
+{
+  "_comment": "Everything company-specific lives here. Copy this file, change the company, categories and capabilities, and the bot, jobs and site all follow it.",
+
+  "company": {
+    "name": "Keelstone",
+    "product": "Keelstone Safety Platform",
+    "oneLiner": "Computer vision on the cameras you already have, plus the coaching, OSHA and renewal reporting that turn hazards into fewer claims.",
+    "proofPoints": [
+      "No new hardware: runs on existing IP cameras, about one day of setup per site",
+      "Faces and bodies blurred at the edge; video used for coaching, never discipline",
+      "Works with any carrier and any broker",
+      "Broker-ready renewal report with leading indicators by site"
+    ]
+  },
+
+  "categories": [
+    {
+      "id": "ai-safety",
+      "name": "AI safety analytics",
+      "description": "Computer-vision and sensor companies selling safety software directly to employers.",
+      "capabilities": [
+        "Hazard detection on existing cameras",
+        "Ergonomic and lift risk",
+        "Worker privacy controls",
+        "Crew coaching",
+        "OSHA recordkeeping",
+        "Broker and renewal reporting",
+        "Total cost of risk",
+        "Time to deploy"
+      ]
+    },
+    {
+      "id": "insurtech",
+      "name": "Insurtech",
+      "description": "Tech-first workers' comp insurers and MGAs that bundle risk tools with coverage.",
+      "capabilities": [
+        "Works with any carrier",
+        "Leading indicators, not just loss runs",
+        "Hazard detection",
+        "Broker reporting",
+        "Total cost of risk",
+        "Fit for mid-market",
+        "Claims management",
+        "Time to value"
+      ]
+    },
+    {
+      "id": "carriers",
+      "name": "Insurance carriers",
+      "description": "Established workers' comp carriers whose loss-control services compete for the same safety budget and attention.",
+      "capabilities": [
+        "Continuous site coverage",
+        "Real-time hazard alerts",
+        "Broker and renewal reporting",
+        "Premium credits for safety",
+        "Claims handling",
+        "Loss-control consultants",
+        "Data portability",
+        "Worker privacy controls"
+      ]
+    }
+  ],
+
+  "slack": {
+    "intelChannel": "competitive-intel",
+    "updatesChannel": "competitive-intel",
+    "adminUserIds": ["U00ADMIN00"],
+    "_adminUserIds": "Slack member IDs of the people who approve intel, card requests and source lists. The first one also gets change alerts and monthly drafts."
+  },
+
+  "site": {
+    "title": "Competitive Intel Tracker",
+    "baseUrl": "https://jamesallgood99.github.io/competitive-intel-tracker",
+    "showEmployeeSentiment": false,
+    "_showEmployeeSentiment": "Glassdoor and CEO approval are an admin signal. Keep this false unless the site is private to your team.",
+    "staleAfterDays": 90
+  },
+
+  "scraper": {
+    "userAgent": "CompetitiveIntelTracker/1.0 (+https://github.com/jamesallgood99/competitive-intel-tracker)",
+    "respectRobotsTxt": true,
+    "maxPagesPerCompetitor": 8,
+    "alertAdminOn": ["major"]
+  },
+
+  "monthly": {
+    "weekday": 2,
+    "_weekday": "0 = Sunday. 2 = Tuesday. The job runs on the first one of each month.",
+    "topMoversPerCategory": 3,
+    "tldrItems": 3,
+    "industryQuestions": {
+      "trends": "What changed in workplace safety technology and workers' compensation this month that a sales rep should know?",
+      "regulatory": "What OSHA, state workers' comp, privacy or AI regulations were proposed, passed or enforced this month?",
+      "mna": "What mergers, acquisitions, funding rounds or shutdowns happened among workers' comp insurers, insurtechs and safety-tech companies this month?",
+      "health": "How healthy is the workers' comp market right now: rates, combined ratios, claim frequency and severity trends?"
+    }
+  },
+
+  "movers": {
+    "_comment": "How 'movement' is scored when picking the top movers per category. Severity sets the base, type multiplies it.",
+    "severity": { "major": 3, "minor": 1 },
+    "typeWeight": {
+      "product": 1.5,
+      "pricing": 1.5,
+      "messaging": 1.0,
+      "compliance": 1.25,
+      "news": 1.25,
+      "intel": 1.0,
+      "reviews": 0.75,
+      "employees": 0.5
+    }
+  },
+
+  "claude": {
+    "model": "claude-sonnet-5-5",
+    "_model": "Override with the CLAUDE_MODEL environment variable."
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "slug": "harborline-casualty",
+  "name": "Harborline Casualty",
+  "category": "carriers",
+  "website": "https://harborline.example",
+  "status": "active",
+  "lastConfirmed": "2026-09-25",
+  "owner": "Product marketing",
+  "positioning": "Harborline's loss-control program is consultant-led and focused on its largest accounts; Keelstone gives every site the same daily coverage, and works with the Harborline policy rather than against it. Position Keelstone as the way to earn better terms from Harborline, not as a replacement.",
+  "scorecard": [
+    {
+      "capability": "Continuous site coverage",
+      "verdict": "win",
+      "note": "Consultant visits only."
+    },
+    {
+      "capability": "Real-time hazard alerts",
+      "verdict": "win",
+      "note": "None."
+    },
+    {
+      "capability": "Broker and renewal reporting",
+      "verdict": "win",
+      "note": "Loss runs only."
+    },
+    {
+      "capability": "Premium credits for safety",
+      "verdict": "loss",
+      "note": "Schedule credits at underwriter discretion."
+    },
+    {
+      "capability": "Claims handling",
+      "verdict": "loss",
+      "note": "They're the carrier."
+    },
+    {
+      "capability": "Loss-control consultants",
+      "verdict": "loss",
+      "note": "Strong regional team."
+    },
+    {
+      "capability": "Data portability",
+      "verdict": "win",
+      "note": "N/A, no data to port."
+    },
+    {
+      "capability": "Worker privacy controls",
+      "verdict": "parity",
+      "note": "No video, so no concern."
+    }
+  ],
+  "whyWeWin": [
+    {
+      "point": "Evidence for the underwriter",
+      "proof": "Our broker report supports schedule credits at renewal."
+    }
+  ],
+  "whereTheyWin": [
+    "Relationships with regional brokers",
+    "Consultants on site for large accounts"
+  ],
+  "objections": [
+    {
+      "theySay": "Harborline's consultants already cover safety.",
+      "youSay": "For a few days a year. We give them, and you, the other 360."
+    }
+  ],
+  "landmines": [
+    "What did Harborline's underwriter use to set your schedule credit?"
+  ],
+  "messaging": [
+    "Local service, national strength"
+  ],
+  "products": [
+    {
+      "name": "Harborline Workers' Comp",
+      "description": "Regional workers' comp carrier"
+    }
+  ],
+  "compliance": [],
+  "customerSentiment": {
+    "asOf": "2026-09-15",
+    "sources": [],
+    "positive": [],
+    "negative": []
+  },
+  "employeeSentiment": {
+    "asOf": "2026-09-15",
+    "rating": 3.5,
+    "ceoApproval": 68,
+    "recommendToFriend": 60,
+    "positive": [
+      {
+        "theme": "Work-life balance",
+        "mentions": 8,
+        "detail": "Predictable hours."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Promotion",
+        "mentions": 6,
+        "detail": "Slow advancement."
+      }
+    ]
+  },
+  "fieldIntel": [],
+  "snapshot": {
+    "founded": 1954,
+    "hq": "Baltimore, MD",
+    "employees": "1,200",
+    "funding": "Stock carrier, A- rating",
+    "leadership": "CEO: Raymond Kessler",
+    "news": []
+  },
+  "sources": [
+    {
+      "url": "https://harborline.example/",
+      "method": "fetch",
+      "purpose": "messaging",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://harborline.example/products",
+      "method": "fetch",
+      "purpose": "products",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://harborline.example/security",
+      "method": "fetch",
+      "purpose": "compliance",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Harborline Casualty reviews G2 Capterra Gartner",
+      "method": "search",
+      "purpose": "reviews",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Harborline Casualty Glassdoor reviews CEO approval",
+      "method": "search",
+      "purpose": "employees",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    }
+  ]
+}

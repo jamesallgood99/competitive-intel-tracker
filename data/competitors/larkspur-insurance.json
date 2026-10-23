@@ -1,0 +1,178 @@
+{
+  "slug": "larkspur-insurance",
+  "name": "Larkspur Insurance",
+  "category": "insurtech",
+  "website": "https://larkspur.example",
+  "status": "active",
+  "lastConfirmed": "2026-08-20",
+  "owner": "Product marketing",
+  "positioning": "Larkspur is a construction-only MGA with good jobsite underwriting; Keelstone works across every industry and every policy, and sees hazards on the site rather than in the file. When the prospect runs more than construction, we win.",
+  "scorecard": [
+    {
+      "capability": "Works with any carrier",
+      "verdict": "win",
+      "note": "Larkspur policy required."
+    },
+    {
+      "capability": "Leading indicators, not just loss runs",
+      "verdict": "parity",
+      "note": "Jobsite audits feed pricing."
+    },
+    {
+      "capability": "Hazard detection",
+      "verdict": "win",
+      "note": "Manual audits only."
+    },
+    {
+      "capability": "Broker reporting",
+      "verdict": "parity",
+      "note": "Broker-first distribution."
+    },
+    {
+      "capability": "Total cost of risk",
+      "verdict": "win",
+      "note": "Not offered."
+    },
+    {
+      "capability": "Fit for mid-market",
+      "verdict": "parity",
+      "note": "Construction mid-market."
+    },
+    {
+      "capability": "Claims management",
+      "verdict": "loss",
+      "note": "Integrated claims."
+    },
+    {
+      "capability": "Time to value",
+      "verdict": "parity",
+      "note": "Comparable."
+    }
+  ],
+  "whyWeWin": [
+    {
+      "point": "Continuous, not quarterly",
+      "proof": "Cameras see every shift; audits see one day a quarter."
+    }
+  ],
+  "whereTheyWin": [
+    "Construction specialists with deep jobsite knowledge",
+    "Wrap-up and OCIP programs"
+  ],
+  "objections": [
+    {
+      "theySay": "Larkspur's auditors know construction.",
+      "youSay": "They do. Ask how many days a quarter they're on your site."
+    }
+  ],
+  "landmines": [
+    "How many hours a year is someone from Larkspur actually on your jobsite?"
+  ],
+  "messaging": [
+    "Built for builders",
+    "Underwriting that knows a jobsite"
+  ],
+  "products": [
+    {
+      "name": "Larkspur Contractors Comp",
+      "description": "Workers' comp for contractors"
+    }
+  ],
+  "compliance": [
+    {
+      "area": "SOC 2 Type II",
+      "them": "Not claimed",
+      "us": "Yes"
+    }
+  ],
+  "customerSentiment": {
+    "asOf": "2026-08-15",
+    "sources": [
+      {
+        "name": "Capterra",
+        "rating": 4.2,
+        "reviews": 19
+      }
+    ],
+    "positive": [
+      {
+        "theme": "Industry knowledge",
+        "mentions": 9,
+        "detail": "Understands construction."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Narrow appetite",
+        "mentions": 5,
+        "detail": "Declines non-construction classes."
+      }
+    ]
+  },
+  "employeeSentiment": {
+    "asOf": "2026-08-15",
+    "rating": 3.8,
+    "ceoApproval": 76,
+    "recommendToFriend": 70,
+    "positive": [
+      {
+        "theme": "Small team",
+        "mentions": 4,
+        "detail": "Close-knit."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Tools",
+        "mentions": 3,
+        "detail": "Dated internal systems."
+      }
+    ]
+  },
+  "fieldIntel": [],
+  "snapshot": {
+    "founded": 2020,
+    "hq": "Phoenix, AZ",
+    "employees": "40–60",
+    "funding": "Seed + MGA capacity",
+    "leadership": "CEO: Hannah Brightwater",
+    "news": []
+  },
+  "sources": [
+    {
+      "url": "https://larkspur.example/",
+      "method": "fetch",
+      "purpose": "messaging",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://larkspur.example/products",
+      "method": "fetch",
+      "purpose": "products",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://larkspur.example/security",
+      "method": "fetch",
+      "purpose": "compliance",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Larkspur Insurance reviews G2 Capterra Gartner",
+      "method": "search",
+      "purpose": "reviews",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Larkspur Insurance Glassdoor reviews CEO approval",
+      "method": "search",
+      "purpose": "employees",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    }
+  ]
+}

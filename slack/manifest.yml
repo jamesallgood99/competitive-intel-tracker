@@ -1,0 +1,39 @@
+# Paste this into https://api.slack.com/apps → Create New App → From an app manifest.
+# It sets up Socket Mode, so the bot needs no public URL.
+display_information:
+  name: Intel
+  description: Competitive intel and battlecards for the sales team
+  background_color: "#22303a"
+features:
+  bot_user:
+    display_name: Intel
+    always_online: true
+  slash_commands:
+    - command: /battlecard
+      description: Get a battlecard link, or ask for a new one
+      usage_hint: "[competitor] | request [company] - [why]"
+      should_escape: false
+oauth_config:
+  scopes:
+    bot:
+      - app_mentions:read
+      - channels:history
+      - channels:read
+      - groups:history
+      - groups:read
+      - chat:write
+      - commands
+      - im:write
+      - reactions:write
+      - users:read
+settings:
+  event_subscriptions:
+    bot_events:
+      - app_mention
+      - message.channels
+      - message.groups
+  interactivity:
+    is_enabled: true
+  org_deploy_enabled: false
+  socket_mode_enabled: true
+  token_rotation_enabled: false

@@ -1,0 +1,200 @@
+{
+  "slug": "cobaltrock-mutual",
+  "name": "Cobaltrock Mutual",
+  "category": "carriers",
+  "website": "https://cobaltrock.example",
+  "status": "active",
+  "lastConfirmed": "2026-10-19",
+  "owner": "Product marketing",
+  "positioning": "Cobaltrock's loss-control team visits a few times a year and now offers a camera pilot to its own policyholders; Keelstone covers every site on every shift and stays with the employer whatever carrier they choose. When the employer wants its safety data to work for it at renewal, not for the carrier, we win.",
+  "scorecard": [
+    {
+      "capability": "Continuous site coverage",
+      "verdict": "win",
+      "note": "Their SafeSight pilot covers selected accounts only."
+    },
+    {
+      "capability": "Real-time hazard alerts",
+      "verdict": "win",
+      "note": "Pilot only; most policyholders get none."
+    },
+    {
+      "capability": "Broker and renewal reporting",
+      "verdict": "win",
+      "note": "Carrier keeps the data."
+    },
+    {
+      "capability": "Premium credits for safety",
+      "verdict": "loss",
+      "note": "They can discount; we can't."
+    },
+    {
+      "capability": "Claims handling",
+      "verdict": "loss",
+      "note": "They're the carrier."
+    },
+    {
+      "capability": "Loss-control consultants",
+      "verdict": "loss",
+      "note": "Large field team."
+    },
+    {
+      "capability": "Data portability",
+      "verdict": "win",
+      "note": "The employer owns Keelstone data."
+    },
+    {
+      "capability": "Worker privacy controls",
+      "verdict": "parity",
+      "note": "Their pilot blurs too."
+    }
+  ],
+  "whyWeWin": [
+    {
+      "point": "The employer owns the evidence",
+      "proof": "Take our broker report to any carrier at renewal."
+    },
+    {
+      "point": "Every shift, every site",
+      "proof": "Loss-control visits are a few days a year."
+    }
+  ],
+  "whereTheyWin": [
+    "Free loss-control services included in the premium",
+    "Premium credits tied to their own program"
+  ],
+  "objections": [
+    {
+      "theySay": "Cobaltrock's camera program is free for policyholders.",
+      "youSay": "Free while you stay. Ask who owns the video and the findings if you move carriers."
+    }
+  ],
+  "landmines": [
+    "If you change carriers next year, what data do you keep?",
+    "How many accounts are in the SafeSight pilot?"
+  ],
+  "messaging": [
+    "Safety partners since 1912",
+    "SafeSight: AI safety for Cobaltrock policyholders"
+  ],
+  "products": [
+    {
+      "name": "Cobaltrock Workers' Comp",
+      "description": "Middle-market workers' comp"
+    },
+    {
+      "name": "Cobaltrock SafeSight",
+      "description": "Camera-based safety pilot for selected policyholders, announced October 2026"
+    }
+  ],
+  "compliance": [
+    {
+      "area": "Data ownership",
+      "them": "Carrier retains SafeSight data",
+      "us": "Employer owns all data"
+    }
+  ],
+  "customerSentiment": {
+    "asOf": "2026-10-01",
+    "sources": [
+      {
+        "name": "Gartner Peer Insights",
+        "rating": 3.9,
+        "reviews": 12
+      }
+    ],
+    "positive": [
+      {
+        "theme": "Stability",
+        "mentions": 7,
+        "detail": "Long-standing, financially strong."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Slow service",
+        "mentions": 6,
+        "detail": "Bureaucratic."
+      }
+    ]
+  },
+  "employeeSentiment": {
+    "asOf": "2026-10-01",
+    "rating": 3.7,
+    "ceoApproval": 74,
+    "recommendToFriend": 66,
+    "positive": [
+      {
+        "theme": "Benefits",
+        "mentions": 20,
+        "detail": "Strong benefits and pension."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Legacy tech",
+        "mentions": 12,
+        "detail": "Old systems."
+      }
+    ]
+  },
+  "fieldIntel": [
+    {
+      "date": "2026-10-17",
+      "author": "Alex P. (Channel)",
+      "text": "Two brokers say Cobaltrock is offering SafeSight to win renewals away from incumbents in manufacturing. Pilot is limited to accounts over $500K premium.",
+      "source": "Broker lunch",
+      "approvedBy": "Admin"
+    }
+  ],
+  "snapshot": {
+    "founded": 1912,
+    "hq": "Hartford, CT",
+    "employees": "4,000+",
+    "funding": "Mutual insurer, A (Excellent) rating",
+    "leadership": "CEO: Margaret Ellison",
+    "news": [
+      {
+        "date": "2026-10-05",
+        "headline": "Announced SafeSight camera pilot with an AI vendor partner"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://cobaltrock.example/",
+      "method": "fetch",
+      "purpose": "messaging",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://cobaltrock.example/products",
+      "method": "fetch",
+      "purpose": "products",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://cobaltrock.example/security",
+      "method": "fetch",
+      "purpose": "compliance",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Cobaltrock Mutual reviews G2 Capterra Gartner",
+      "method": "search",
+      "purpose": "reviews",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Cobaltrock Mutual Glassdoor reviews CEO approval",
+      "method": "search",
+      "purpose": "employees",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    }
+  ]
+}

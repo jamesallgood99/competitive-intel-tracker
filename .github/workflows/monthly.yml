@@ -1,0 +1,47 @@
+name: Monthly competitive update
+
+# Cron can't say "first Tuesday", so this runs every Tuesday at 15:23 UTC (morning in the US)
+# and the script exits unless it's the first one of the month.
+on:
+  schedule:
+    - cron: '23 15 * * 2'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Draft an update now, whatever the date'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: knowledge-base-writes
+  cancel-in-progress: false
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - name: Draft the update and send it to the admin
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+        run: node src/jobs/monthly.js ${{ inputs.force && '--force' || '' }}
+      - name: Commit the draft
+        run: |
+          git config user.name "intel-tracker[bot]"
+          git config user.email "intel-tracker@users.noreply.github.com"
+          git add data/updates
+          git diff --cached --quiet || git commit -m "Draft monthly update $(date -u +%Y-%m)"
+          git pull --rebase && git push
+      - name: Rebuild the site
+        # Commits pushed with the Actions token don't trigger other workflows, so start the build directly.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main

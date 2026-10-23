@@ -1,0 +1,236 @@
+{
+  "slug": "lumenfield",
+  "name": "Lumenfield",
+  "category": "ai-safety",
+  "website": "https://lumenfield.example",
+  "status": "active",
+  "lastConfirmed": "2026-10-02",
+  "owner": "Product marketing",
+  "positioning": "Lumenfield is a strong fit for enterprises that want a serious-injury-and-fatality program run by consultants; Keelstone gives mid-market safety teams coverage of every site without adding headcount. When the buyer needs results this year without a services contract, we win.",
+  "scorecard": [
+    {
+      "capability": "Hazard detection on existing cameras",
+      "verdict": "parity",
+      "note": "Both camera-agnostic."
+    },
+    {
+      "capability": "Ergonomic and lift risk",
+      "verdict": "win",
+      "note": "Lumenfield focuses on SIF events, not cumulative ergonomic risk."
+    },
+    {
+      "capability": "Worker privacy controls",
+      "verdict": "parity",
+      "note": "Both blur by default."
+    },
+    {
+      "capability": "Crew coaching",
+      "verdict": "win",
+      "note": "Lumenfield routes findings to consultants, not crews."
+    },
+    {
+      "capability": "OSHA recordkeeping",
+      "verdict": "parity",
+      "note": "Both draft OSHA logs."
+    },
+    {
+      "capability": "Broker and renewal reporting",
+      "verdict": "win",
+      "note": "No broker-facing output."
+    },
+    {
+      "capability": "Total cost of risk",
+      "verdict": "parity",
+      "note": "Their enterprise tier includes a cost model."
+    },
+    {
+      "capability": "Time to deploy",
+      "verdict": "win",
+      "note": "Their onboarding is a 10–12 week services engagement."
+    }
+  ],
+  "whyWeWin": [
+    {
+      "point": "Software the safety team runs itself",
+      "proof": "About a day of setup per site versus a 10–12 week services engagement."
+    },
+    {
+      "point": "Built for the whole buying committee",
+      "proof": "Broker report and cost-of-risk dashboard included, not a separate tier."
+    },
+    {
+      "point": "Everyday risk, not only the worst day",
+      "proof": "Ergonomic and lift scoring catches the strains and sprains that drive claim frequency."
+    }
+  ],
+  "whereTheyWin": [
+    "Fortune 500 accounts with a dedicated EHS function",
+    "SIF programs at utilities and heavy construction",
+    "Credibility from their former-OSHA consulting bench"
+  ],
+  "objections": [
+    {
+      "theySay": "Lumenfield focuses on what actually kills people.",
+      "youSay": "So do we, and we also catch the strains and sprains that make up most of your claims. Ask which one is driving your experience mod."
+    },
+    {
+      "theySay": "Lumenfield comes with safety experts.",
+      "youSay": "Their experts are billable. Ask what the program costs in year two when the services engagement is renewed."
+    }
+  ],
+  "landmines": [
+    "What happens to the program when the consulting engagement ends?",
+    "How many weeks until you see your first finding?",
+    "What share of last year's claims were serious injuries versus strains and sprains?"
+  ],
+  "messaging": [
+    "Prevent serious injuries and fatalities",
+    "Technology plus expertise",
+    "Built for high-energy work"
+  ],
+  "products": [
+    {
+      "name": "Lumenfield SIF Platform",
+      "description": "High-energy hazard detection and precursor tracking"
+    },
+    {
+      "name": "Lumenfield Advisory",
+      "description": "Consulting engagements run by former OSHA and EHS leaders"
+    }
+  ],
+  "compliance": [
+    {
+      "area": "SOC 2 Type II",
+      "them": "Claimed",
+      "us": "Yes"
+    },
+    {
+      "area": "Blurring",
+      "them": "Edge, on by default",
+      "us": "Edge, on by default"
+    },
+    {
+      "area": "FedRAMP",
+      "them": "In process (claimed October 2026)",
+      "us": "Not planned"
+    }
+  ],
+  "customerSentiment": {
+    "asOf": "2026-10-01",
+    "sources": [
+      {
+        "name": "G2",
+        "rating": 4.3,
+        "reviews": 47
+      },
+      {
+        "name": "Gartner Peer Insights",
+        "rating": 4.5,
+        "reviews": 31
+      }
+    ],
+    "positive": [
+      {
+        "theme": "Expert guidance",
+        "mentions": 19,
+        "detail": "Customers value the consultants more than the software."
+      },
+      {
+        "theme": "Executive visibility",
+        "mentions": 11,
+        "detail": "Board-ready SIF reporting."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Slow onboarding",
+        "mentions": 14,
+        "detail": "Months before the first useful insight."
+      },
+      {
+        "theme": "Cost",
+        "mentions": 12,
+        "detail": "Services fees grow with each new site."
+      }
+    ]
+  },
+  "employeeSentiment": {
+    "asOf": "2026-10-01",
+    "rating": 4.1,
+    "ceoApproval": 88,
+    "recommendToFriend": 79,
+    "positive": [
+      {
+        "theme": "Leadership",
+        "mentions": 9,
+        "detail": "Trusted founder with deep safety credibility."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Travel",
+        "mentions": 6,
+        "detail": "Consultants on the road most weeks."
+      }
+    ]
+  },
+  "fieldIntel": [
+    {
+      "date": "2026-10-12",
+      "author": "Kim O. (AE, West)",
+      "text": "Lumenfield told a utility prospect they are pursuing FedRAMP to sell into federal power marketing administrations.",
+      "source": "Prospect call",
+      "approvedBy": "Admin"
+    }
+  ],
+  "snapshot": {
+    "founded": 2017,
+    "hq": "Denver, CO",
+    "employees": "150–200",
+    "funding": "Series B, $60M total",
+    "leadership": "CEO: Tomás Ibarra",
+    "news": [
+      {
+        "date": "2026-10-06",
+        "headline": "Announced FedRAMP Moderate pursuit"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://lumenfield.example/",
+      "method": "fetch",
+      "purpose": "messaging",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://lumenfield.example/products",
+      "method": "fetch",
+      "purpose": "products",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://lumenfield.example/security",
+      "method": "fetch",
+      "purpose": "compliance",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Lumenfield reviews G2 Capterra Gartner",
+      "method": "search",
+      "purpose": "reviews",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Lumenfield Glassdoor reviews CEO approval",
+      "method": "search",
+      "purpose": "employees",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    }
+  ]
+}

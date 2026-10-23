@@ -1,0 +1,205 @@
+{
+  "slug": "pennant-comp",
+  "name": "Pennant Comp",
+  "category": "insurtech",
+  "website": "https://pennantcomp.example",
+  "status": "active",
+  "lastConfirmed": "2026-10-11",
+  "owner": "Product marketing",
+  "positioning": "Pennant bundles a wearable safety program with its own workers' comp policy; Keelstone delivers the same safety outcomes on any policy, with no devices to manage. When the prospect wants to keep the broker and carrier they trust, we win.",
+  "scorecard": [
+    {
+      "capability": "Works with any carrier",
+      "verdict": "win",
+      "note": "Pennant policy required."
+    },
+    {
+      "capability": "Leading indicators, not just loss runs",
+      "verdict": "parity",
+      "note": "Wearable data feeds pricing."
+    },
+    {
+      "capability": "Hazard detection",
+      "verdict": "win",
+      "note": "Wearables only; no site-wide view."
+    },
+    {
+      "capability": "Broker reporting",
+      "verdict": "parity",
+      "note": "Pennant works through brokers."
+    },
+    {
+      "capability": "Total cost of risk",
+      "verdict": "parity",
+      "note": "Comparable."
+    },
+    {
+      "capability": "Fit for mid-market",
+      "verdict": "parity",
+      "note": "Same target market."
+    },
+    {
+      "capability": "Claims management",
+      "verdict": "loss",
+      "note": "Integrated claims."
+    },
+    {
+      "capability": "Time to value",
+      "verdict": "parity",
+      "note": "Device rollout takes weeks."
+    }
+  ],
+  "whyWeWin": [
+    {
+      "point": "No carrier switch",
+      "proof": "Our safety outcomes follow the employer to any policy."
+    },
+    {
+      "point": "No devices",
+      "proof": "Existing cameras cover every worker, including temps."
+    }
+  ],
+  "whereTheyWin": [
+    "Prospects ready to switch carriers at renewal",
+    "One vendor for policy, safety and claims"
+  ],
+  "objections": [
+    {
+      "theySay": "Pennant gives you a premium credit for using its safety program.",
+      "youSay": "Only on Pennant's policy. Our broker report lets you take the same evidence to any carrier."
+    }
+  ],
+  "landmines": [
+    "What happens to your safety program if you leave Pennant?",
+    "Who owns the wearable data?"
+  ],
+  "messaging": [
+    "Safer workers, lower premiums",
+    "Insurance that pays you back for safety"
+  ],
+  "products": [
+    {
+      "name": "Pennant Policy",
+      "description": "Workers' comp with safety credits"
+    },
+    {
+      "name": "Pennant Wear",
+      "description": "Wearables bundled with the policy"
+    }
+  ],
+  "compliance": [
+    {
+      "area": "SOC 2 Type II",
+      "them": "Claimed",
+      "us": "Yes"
+    }
+  ],
+  "customerSentiment": {
+    "asOf": "2026-10-01",
+    "sources": [
+      {
+        "name": "G2",
+        "rating": 4.1,
+        "reviews": 54
+      }
+    ],
+    "positive": [
+      {
+        "theme": "Premium credits",
+        "mentions": 20,
+        "detail": "Real savings at renewal."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Device hassles",
+        "mentions": 17,
+        "detail": "Charging and replacement."
+      }
+    ]
+  },
+  "employeeSentiment": {
+    "asOf": "2026-10-01",
+    "rating": 3,
+    "ceoApproval": 49,
+    "recommendToFriend": 44,
+    "positive": [
+      {
+        "theme": "Mission",
+        "mentions": 6,
+        "detail": "Believe in the model."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Leadership turnover",
+        "mentions": 14,
+        "detail": "New CFO and CRO within six months."
+      },
+      {
+        "theme": "Reorg",
+        "mentions": 9,
+        "detail": "Sales team restructured in September."
+      }
+    ]
+  },
+  "fieldIntel": [
+    {
+      "date": "2026-10-03",
+      "author": "Jordan W. (AE, Southeast)",
+      "text": "Two Pennant customers asked us about switching at renewal. Both cited device fatigue and wanting to go back to their old carrier.",
+      "source": "Inbound calls",
+      "approvedBy": "Admin"
+    }
+  ],
+  "snapshot": {
+    "founded": 2019,
+    "hq": "Atlanta, GA",
+    "employees": "180–220",
+    "funding": "Series B, $75M total",
+    "leadership": "CEO: Marcus Delacroix",
+    "news": [
+      {
+        "date": "2026-09-18",
+        "headline": "Named a new CFO and Chief Revenue Officer"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://pennantcomp.example/",
+      "method": "fetch",
+      "purpose": "messaging",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://pennantcomp.example/products",
+      "method": "fetch",
+      "purpose": "products",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://pennantcomp.example/security",
+      "method": "fetch",
+      "purpose": "compliance",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Pennant Comp reviews G2 Capterra Gartner",
+      "method": "search",
+      "purpose": "reviews",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Pennant Comp Glassdoor reviews CEO approval",
+      "method": "search",
+      "purpose": "employees",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    }
+  ]
+}

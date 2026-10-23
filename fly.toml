@@ -1,0 +1,13 @@
+# fly launch --copy-config --no-deploy, then set secrets (see docs/slack-setup.md) and fly deploy.
+# Socket Mode keeps one outbound connection open, so there are no HTTP services and one machine stays on.
+app = "competitive-intel-tracker"
+primary_region = "sjc"
+
+[build]
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"
+
+[processes]
+  bot = "node src/bot/app.js"

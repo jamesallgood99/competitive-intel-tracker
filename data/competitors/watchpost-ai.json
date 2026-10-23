@@ -1,0 +1,286 @@
+{
+  "slug": "watchpost-ai",
+  "name": "Watchpost AI",
+  "category": "ai-safety",
+  "website": "https://watchpost.example",
+  "status": "active",
+  "lastConfirmed": "2026-10-14",
+  "owner": "Product marketing",
+  "positioning": "Watchpost sells safety teams a video platform; Keelstone gives the safety manager, the CFO and the broker one shared risk story that shows up at renewal. When the deal will be decided by the people who pay for workers' comp, not only the people who watch the video, we win.",
+  "scorecard": [
+    {
+      "capability": "Hazard detection on existing cameras",
+      "verdict": "parity",
+      "note": "Both run on existing IP cameras. Watchpost detects more PPE types out of the box."
+    },
+    {
+      "capability": "Ergonomic and lift risk",
+      "verdict": "parity",
+      "note": "Comparable lift and posture scoring."
+    },
+    {
+      "capability": "Worker privacy controls",
+      "verdict": "win",
+      "note": "We blur at the edge by default; Watchpost blurs in the cloud and only on request."
+    },
+    {
+      "capability": "Crew coaching",
+      "verdict": "win",
+      "note": "Our weekly coaching feed is built in; theirs is a clip export."
+    },
+    {
+      "capability": "OSHA recordkeeping",
+      "verdict": "win",
+      "note": "We draft 300, 300A and 301 entries. Watchpost has none."
+    },
+    {
+      "capability": "Broker and renewal reporting",
+      "verdict": "win",
+      "note": "No broker view at Watchpost."
+    },
+    {
+      "capability": "Total cost of risk",
+      "verdict": "win",
+      "note": "Watchpost reports events, not dollars."
+    },
+    {
+      "capability": "Time to deploy",
+      "verdict": "loss",
+      "note": "Their cloud connector skips the on-site gateway: hours, not a day."
+    }
+  ],
+  "whyWeWin": [
+    {
+      "point": "We speak to the CFO and the broker, not just safety",
+      "proof": "Total cost of risk dashboard and broker risk report ship in v1; Watchpost has neither."
+    },
+    {
+      "point": "Privacy that passes the works council and the union",
+      "proof": "Edge blurring on by default and a written coaching-not-discipline policy."
+    },
+    {
+      "point": "We close the OSHA paperwork loop",
+      "proof": "OSHA 300/300A/301 drafts with an audit trail."
+    }
+  ],
+  "whereTheyWin": [
+    "Faster first deployment through their cloud connector",
+    "Larger PPE and vehicle detection library",
+    "Multilingual alerts and a stronger presence outside the US"
+  ],
+  "objections": [
+    {
+      "theySay": "Watchpost is live in an afternoon. Keelstone needs a gateway at every site.",
+      "youSay": "The gateway is why video never leaves the site unblurred. Ask their IT team which one they would rather defend in a security review."
+    },
+    {
+      "theySay": "Watchpost detects 40+ PPE types.",
+      "youSay": "Ask how many of those alerts turned into a lower premium. Detection is the start; we connect it to claims, OSHA and renewal."
+    },
+    {
+      "theySay": "Watchpost has more customers.",
+      "youSay": "In safety-only deals, yes. Ask the prospect who owns the workers' comp budget, then ask whether Watchpost has ever been in front of that person."
+    }
+  ],
+  "landmines": [
+    "Where is video blurred: on site or after it reaches the cloud?",
+    "How will your broker see the improvement at renewal?",
+    "Who drafts your OSHA 300 log today, and how long does it take?",
+    "What will the CFO be shown at the six-month review?"
+  ],
+  "messaging": [
+    "See every hazard on every shift",
+    "Live in hours on the cameras you already have",
+    "Trusted by safety teams in 30 countries"
+  ],
+  "products": [
+    {
+      "name": "Watchpost Platform",
+      "description": "Cloud video analytics for hazards, PPE and vehicles"
+    },
+    {
+      "name": "Watchpost Connect",
+      "description": "Cloud connector for existing camera systems, no on-site hardware"
+    },
+    {
+      "name": "Watchpost Ergo",
+      "description": "Lift and posture scoring add-on, launched September 2026"
+    }
+  ],
+  "compliance": [
+    {
+      "area": "SOC 2 Type II",
+      "them": "Claimed on trust page",
+      "us": "Yes"
+    },
+    {
+      "area": "ISO 27001",
+      "them": "Claimed",
+      "us": "In progress, expected Q1 2027"
+    },
+    {
+      "area": "Blurring",
+      "them": "Cloud-side, opt-in",
+      "us": "Edge, on by default"
+    },
+    {
+      "area": "Video retention",
+      "them": "90 days default",
+      "us": "30 days default, configurable"
+    },
+    {
+      "area": "GDPR",
+      "them": "DPA available",
+      "us": "DPA available"
+    }
+  ],
+  "customerSentiment": {
+    "asOf": "2026-10-01",
+    "sources": [
+      {
+        "name": "G2",
+        "rating": 4.6,
+        "reviews": 184
+      },
+      {
+        "name": "Capterra",
+        "rating": 4.5,
+        "reviews": 61
+      },
+      {
+        "name": "Gartner Peer Insights",
+        "rating": 4.4,
+        "reviews": 22
+      }
+    ],
+    "positive": [
+      {
+        "theme": "Fast setup",
+        "mentions": 41,
+        "detail": "Reviewers keep mentioning going live in a day without new hardware."
+      },
+      {
+        "theme": "Detection accuracy",
+        "mentions": 33,
+        "detail": "Few false positives on PPE and forklift alerts."
+      },
+      {
+        "theme": "Responsive support",
+        "mentions": 18,
+        "detail": "Named CSM and quick ticket turnaround."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Alert fatigue",
+        "mentions": 22,
+        "detail": "Supervisors get too many notifications at large sites."
+      },
+      {
+        "theme": "Weak reporting",
+        "mentions": 17,
+        "detail": "Hard to turn events into something finance or leadership will read."
+      },
+      {
+        "theme": "Worker pushback",
+        "mentions": 9,
+        "detail": "Some crews see it as surveillance; blurring has to be requested."
+      }
+    ]
+  },
+  "employeeSentiment": {
+    "asOf": "2026-10-01",
+    "rating": 3.6,
+    "ceoApproval": 71,
+    "recommendToFriend": 64,
+    "positive": [
+      {
+        "theme": "Mission",
+        "mentions": 14,
+        "detail": "Employees like working on injury prevention."
+      }
+    ],
+    "negative": [
+      {
+        "theme": "Sales pressure",
+        "mentions": 11,
+        "detail": "Quota increases after the Series C."
+      },
+      {
+        "theme": "Roadmap churn",
+        "mentions": 7,
+        "detail": "Engineering priorities shift between quarters."
+      }
+    ]
+  },
+  "fieldIntel": [
+    {
+      "date": "2026-10-09",
+      "author": "Dana R. (AE, Central)",
+      "text": "Watchpost offered a free 90-day pilot at a 6-site food processor to block our evaluation. Prospect's IT lead was uneasy about cloud-side blurring.",
+      "source": "Prospect call",
+      "approvedBy": "Admin"
+    },
+    {
+      "date": "2026-09-22",
+      "author": "Marcus T. (SE)",
+      "text": "Watchpost demo showed the new Ergo add-on. Lift scoring looks comparable to ours; no OSHA or broker output.",
+      "source": "Prospect shared the demo recording",
+      "approvedBy": "Admin"
+    }
+  ],
+  "snapshot": {
+    "founded": 2019,
+    "hq": "Austin, TX",
+    "employees": "250–300",
+    "funding": "Series C, $95M total",
+    "leadership": "CEO: Priya Nandakumar",
+    "news": [
+      {
+        "date": "2026-09-15",
+        "headline": "Launched Watchpost Ergo for lift and posture risk"
+      },
+      {
+        "date": "2026-08-04",
+        "headline": "Opened a Rotterdam office for European customers"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://watchpost.example/",
+      "method": "fetch",
+      "purpose": "messaging",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://watchpost.example/platform",
+      "method": "fetch",
+      "purpose": "products",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "https://watchpost.example/trust",
+      "method": "fetch",
+      "purpose": "compliance",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Watchpost AI reviews G2 Capterra Gartner",
+      "method": "search",
+      "purpose": "reviews",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    },
+    {
+      "url": "Watchpost AI Glassdoor reviews CEO approval",
+      "method": "search",
+      "purpose": "employees",
+      "approvedBy": "Admin",
+      "approvedAt": "2026-06-02"
+    }
+  ]
+}
