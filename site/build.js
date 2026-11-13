@@ -60,6 +60,7 @@ const PROJECT_RIBBON = `<!-- Project ribbon: cross-links James Allgood's open-so
     <a href="https://jamesallgood99.github.io/gtm-simulator/">GTM Simulator</a>
     <a href="https://jamesallgood99.github.io/competitive-intel-tracker/" aria-current="page">Competitive Intel Tracker</a>
     <a href="https://jamesallgood99.github.io/acme-prospecting-agents/">Prospecting Agents</a>
+    <a href="https://jamesallgood99.github.io/full-funnel-attribution/">Full-Funnel Attribution</a>
   </nav>
   <a class="ja-gh" href="https://github.com/jamesallgood99/competitive-intel-tracker">View source on GitHub</a>
   <button class="ja-tour" type="button" data-tour-open>Take the tour</button>
