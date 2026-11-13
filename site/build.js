@@ -50,6 +50,8 @@ const PROJECT_RIBBON = `<!-- Project ribbon: cross-links James Allgood's open-so
   .ja-ribbon a:hover, .ja-ribbon a:focus-visible { opacity: 1; text-decoration: underline; }
   .ja-ribbon a[aria-current="page"] { opacity: 1; font-weight: 600; padding-bottom: 3px; border-bottom: 2px solid #7f98ff; }
   .ja-ribbon .ja-gh { margin-left: auto; }
+  .ja-ribbon .ja-tour { font: inherit; color: #15181e; background: #ffd200; border: 0; border-radius: 3px; padding: 5px 10px; font-weight: 600; cursor: pointer; }
+  .ja-ribbon .ja-tour:hover, .ja-ribbon .ja-tour:focus-visible { background: #ffe14d; }
   .latest { top: 52px; }
 </style>
 <div class="ja-ribbon" role="navigation" aria-label="James Allgood's projects">
@@ -60,8 +62,49 @@ const PROJECT_RIBBON = `<!-- Project ribbon: cross-links James Allgood's open-so
     <a href="https://jamesallgood99.github.io/acme-prospecting-agents/">Prospecting Agents</a>
   </nav>
   <a class="ja-gh" href="https://github.com/jamesallgood99/competitive-intel-tracker">View source on GitHub</a>
+  <button class="ja-tour" type="button" data-tour-open>Take the tour</button>
 </div>
 `;
+
+// The demo's product tour (site/assets/tour.js) gets its examples from the demo data, so the tour never
+// describes a card or an update that isn't on the site.
+function tourData() {
+  const byslug = new Map(competitors.map((c) => [c.slug, c]));
+  const featured = live.find((c) => c.slug === 'watchpost-ai') ?? live.find((c) => c.fieldIntel.length) ?? live[0];
+  if (!featured) return null;
+  const intel = [...featured.fieldIntel].sort((a, b) => b.date.localeCompare(a.date))[0];
+  const change = [...changes]
+    .filter((c) => c.severity === 'major' && byslug.get(c.slug)?.status === 'active')
+    .sort((a, b) => b.date.localeCompare(a.date))[0];
+  const latest = updates.find((u) => u.status === 'published');
+  const firstSentence = (s) => String(s ?? '').split(/(?<=[.!?])\s+(?=[A-Z])/)[0];
+  return {
+    company: config.company.name,
+    intelChannel: config.slack.intelChannel,
+    updatesChannel: config.slack.updatesChannel,
+    competitors: live.length,
+    categories: config.categories.length,
+    card: {
+      slug: featured.slug,
+      name: featured.name,
+      positioning: firstSentence(featured.positioning),
+      scorecard: tourScorecard(featured.scorecard),
+      tally: tally(featured),
+    },
+    intel: intel ? { author: intel.author, text: intel.text } : null,
+    change: change
+      ? { slug: change.slug, name: byslug.get(change.slug).name, date: prettyDate(change.date), type: changeTypeLabel[change.type] ?? change.type, summary: change.summary, before: change.before ?? null, after: change.after ?? null }
+      : null,
+    update: latest ? { id: latest.id, month: prettyMonth(latest.id), title: latest.title, tldr: latest.tldr.map((t) => firstSentence(t.text)) } : null,
+  };
+}
+// Four scorecard rows, with one of each verdict when the card has them, in the card's own order.
+function tourScorecard(rows) {
+  const picked = new Set(['win', 'parity', 'loss'].map((v) => rows.find((r) => r.verdict === v)).filter(Boolean));
+  for (const r of rows) if (picked.size < 4) picked.add(r);
+  return rows.filter((r) => picked.has(r)).map((r) => ({ capability: r.capability, verdict: r.verdict }));
+}
+const TOUR_DATA = isDemo ? JSON.stringify(tourData()).replace(/</g, '\\u003c') : 'null';
 
 function page({ title, body, depth, active, description }) {
   const prefix = '../'.repeat(depth);
@@ -84,6 +127,7 @@ ${description ? `<meta name="description" content="${esc(description)}">\n<meta 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Public+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="${prefix}assets/style.css">
+${isDemo ? `<link rel="stylesheet" href="${prefix}assets/tour.css">` : ''}
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='3' y='3' width='10' height='10' transform='rotate(45 8 8)' fill='%23ffd200' stroke='%2322303a' stroke-width='1.5'/%3E%3C/svg%3E">
 </head>
 <body>
@@ -98,6 +142,8 @@ ${body}
 </main>
 <footer><div class="wrap">Built from the ${esc(config.company.name)} competitive knowledge base. Reps add intel in #${esc(config.slack.intelChannel)}; an admin approves every change. Page built ${prettyDate(today)}.</div></footer>
 <script src="${prefix}assets/app.js" defer></script>
+${isDemo ? `<script type="application/json" id="tour-data">${TOUR_DATA}</script>
+<script src="${prefix}assets/tour.js" data-base="${prefix}" data-autostart="${active === 'home' && depth === 0 ? 'true' : 'false'}" defer></script>` : ''}
 </body>
 </html>`;
 }
