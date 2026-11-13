@@ -40,6 +40,29 @@ function freshness(card) {
   return `<span class="tag">Confirmed ${prettyDate(card.lastConfirmed)}</span>`;
 }
 
+// The public demo carries a ribbon linking James Allgood's other GTM tools. Forks with their own data don't show it.
+const PROJECT_RIBBON = `<!-- Project ribbon: cross-links James Allgood's open-source GTM tools. -->
+<style>
+  .ja-ribbon { position: sticky; top: 0; z-index: 40; box-sizing: border-box; height: 36px; display: flex; align-items: center; gap: 18px; padding: 0 24px; background: #15181e; color: #f3f4f6; font: 13px/1 "IBM Plex Sans", "Segoe UI", Roboto, Arial, sans-serif; overflow-x: auto; white-space: nowrap; }
+  .ja-ribbon .ja-who { font-weight: 600; color: #f3f4f6; opacity: 1; margin-right: 6px; }
+  .ja-ribbon nav { display: flex; gap: 16px; }
+  .ja-ribbon a { color: #f3f4f6; opacity: 0.75; text-decoration: none; }
+  .ja-ribbon a:hover, .ja-ribbon a:focus-visible { opacity: 1; text-decoration: underline; }
+  .ja-ribbon a[aria-current="page"] { opacity: 1; font-weight: 600; padding-bottom: 3px; border-bottom: 2px solid #7f98ff; }
+  .ja-ribbon .ja-gh { margin-left: auto; }
+  .latest { top: 52px; }
+</style>
+<div class="ja-ribbon" role="navigation" aria-label="James Allgood's projects">
+  <a class="ja-who" href="https://jamesallgood.com/ai-skills.html">James Allgood</a>
+  <nav>
+    <a href="https://jamesallgood99.github.io/gtm-simulator/">GTM Simulator</a>
+    <a href="https://jamesallgood99.github.io/competitive-intel-tracker/" aria-current="page">Competitive Intel Tracker</a>
+    <a href="https://jamesallgood99.github.io/acme-prospecting-agents/">Prospecting Agents</a>
+  </nav>
+  <a class="ja-gh" href="https://github.com/jamesallgood99/competitive-intel-tracker">View source on GitHub</a>
+</div>
+`;
+
 function page({ title, body, depth, active, description }) {
   const prefix = '../'.repeat(depth);
   const nav = [
@@ -64,6 +87,7 @@ ${description ? `<meta name="description" content="${esc(description)}">\n<meta 
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='3' y='3' width='10' height='10' transform='rotate(45 8 8)' fill='%23ffd200' stroke='%2322303a' stroke-width='1.5'/%3E%3C/svg%3E">
 </head>
 <body>
+${isDemo ? PROJECT_RIBBON : ''}
 ${isDemo ? `<div class="demo-note"><div class="wrap">Demo data. ${esc(config.company.name)} and every competitor here are fictional.</div></div>` : ''}
 <header class="topbar"><div class="wrap">
 <a class="brand" href="${prefix}">${esc(config.site.title)}</a>
